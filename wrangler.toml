@@ -1,27 +1,50 @@
-name = "sg1" # todo
+name = "id" # todo
 #name = "cf-worker-connect-test" # todo
 #main = "test/worker/cf-cdn-cgi-trace2.js"
 #main = "test/worker/worker-connect-test.js"
 main = "_worker.js"
 compatibility_date = "2023-05-26"
 [[routes]]
-pattern = "sg1.afrcloud.xyz"
+pattern = "id.afrcloud.xyz"
 custom_domain = true
 [[routes]]
-pattern = "ava.game.naver.com.sg1.afrcloud.xyz"
+pattern = "ava.game.naver.com.id.afrcloud.xyz"
 custom_domain = true
 [[routes]]
-pattern = "graph.instagram.com.sg1.afrcloud.xyz"
+pattern = "graph.instagram.com.id.afrcloud.xyz"
 custom_domain = true
 [[routes]]
-pattern = "cache.netlix.com.sg1.afrcloud.xyz" 
+pattern = "cache.netlix.com.id.afrcloud.xyz" 
 custom_domain = true
 [[routes]]
-pattern = "blog.webex.com.sg1.afrcloud.xyz"
+pattern = "blue.blibli.com.id.afrcloud.xyz"
 custom_domain = true
 [[routes]]
-pattern = "mssdk24-normal-useast2a.tiktokv.com.sg1.afrcloud.xyz"
+pattern = "mssdk24-normal-useast2a.tiktokv.com.id.afrcloud.xyz"
 custom_domain = true
+[[routes]]
+pattern = "app.genflix.co.id.id.afrcloud.xyz"
+custom_domain = true
+[[routes]]
+pattern = "m.pubgmobile.com.id.afrcloud.xyz"
+custom_domain = true
+[[routes]]
+pattern = "investors.spotify.com.id.afrcloud.xyz"
+custom_domain = true
+[[routes]]
+pattern = "dl.cvs.freefiremobile.com.id.afrcloud.xyz"
+custom_domain = true
+[[routes]]
+pattern = "web.poe.garena.com.id.afrcloud.xyz"
+custom_domain = true
+[[routes]]
+pattern = "zaintest.vuclip.com.id.afrcloud.xyz"
+custom_domain = true
+[[routes]]
+pattern = "s.youtube.com.id.afrcloud.xyz"
+custom_domain = true
+
+
 [vars]
 # UUID = "d342d11e-d424-4583-b36e-524ab1f0afa4"
 # PROXYIP = "1.2.3.4"
@@ -29,4 +52,4 @@ custom_domain = true
 # NODE_ID = "1"
 # API_TOKEN = "example_dev_token"
 # API_HOST = "api.v2board.com"
-UUID = "5373d4ff-dc72-48db-b048-e9936e370b1a"
+UUID = "2aeee1cd-954a-4f69-b2c0-2de59511707b"

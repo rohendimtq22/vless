@@ -2,10 +2,10 @@
 // @ts-ignore
 import { connect } from 'cloudflare:sockets';
 
-let userID = '2aeee1cd-954a-4f69-b2c0-2de59511707b';
+let userID = 'b0cb1b0b-f5ba-4ca4-a587-cfe48126bff7';
 
-let proxyIP = ['35.219.50.99'];
-let hostnames = ['id.afrcloud.xyz'];
+let proxyIP = ['138.2.104.102'];
+let hostnames = ['sg3.aframdani.cloud'];
 
 if (!isValidUUID(userID)) {
 	throw new Error('uuid is not valid');
@@ -673,7 +673,7 @@ VLESS ACCOUNT INFORMATION
 =====================================
 <b> Pointing XCL Only </b> <button onclick='copyToClipboard("${vlessXclFormatted}")'><i class="fa fa-clipboard"></i> Copy </button>
 =====================================
-<button class="button-small" onclick="window.location='https://v-cf.noir7r.xyz';"></i>BACK TO HOME</button>
+<button class="button-small" onclick="window.location='https://aio.aframdani.cloud';"></i>BACK TO HOME</button>
 
 <div style="text-align: center;">
   <a href="https://t.me/noir7r" target="_blank" style="text-decoration: none;">Contact Me: <button style="color: red; background-color: transparent; border: none;">Telegram</button></a>
